@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_sanataba_maven_hello_world_1727337638828-pr-trigger-input-set
+  identifier: Build_sanataba_maven_hello_world_1727337638828prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_sanataba_maven_hello_world_1727337638828
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
